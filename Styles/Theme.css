@@ -498,7 +498,7 @@ input[type="submit"] {
   box-shadow: 8px 3px 22px 4px rgba(0, 0, 0, 0.73);
   border-radius: 1.5rem;
   -moz-border-radius: 1.5rem;
-  width: 85%;
+  /* width: 85%; */
   margin: 0 auto;
   letter-spacing: 0.07rem;
   font-size: 1.8rem;
@@ -519,6 +519,10 @@ input[type="submit"] {
   padding: 1rem;
 }
 
+.pricing-table td:nth-child(odd) {
+  background: #0001;
+}
+
 /* .pricing-table thead,
 .pricing-table thead tr {
   font-size: 2rem;
@@ -527,6 +531,7 @@ input[type="submit"] {
 
 .pricing-table thead {
   font-size: 2rem;
+  background: #0001;
 }
 
 /* Footer styling */

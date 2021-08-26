@@ -217,6 +217,10 @@ optgroup {
   object-fit: cover;
 }
 
+.hidden {
+  display: none;
+}
+
 .introduction-container {
   position: absolute;
   top: 0;
@@ -356,6 +360,8 @@ optgroup {
 
 .phone-list-item {
   position: relative;
+
+  margin-left: 3rem;
 }
 
 .phone-list-item::before {
@@ -369,8 +375,8 @@ optgroup {
 }
 
 .phone-icon-container {
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -390,16 +396,20 @@ optgroup {
   justify-content: space-between;
 }
 
+.nav-phone-label {
+  font-size: 2.2rem;
+}
+
 .nav-phone-number {
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3.2rem;
   margin-top: 0.7rem;
 }
 
 /* Navbar styling */
 .main-navigation__logo {
   display: inline-block;
-  padding: 3rem;
+  padding: 2rem 3rem;
 }
 
 .main-navigation {
@@ -408,21 +418,24 @@ optgroup {
   justify-content: space-between;
   align-items: center;
   font-size: 2rem;
+  background: rgba(255,255,255,0.2);
 }
 
 .main-navigation__list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  color: white;
 }
 
 .main-navigation__list-item a {
   font-size: 2.5rem;
+  color: inherit;
 }
 
 .main-navigation__list-item {
   display: inline-block;
-  padding: 3rem;
+  padding: 2rem 3rem;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */

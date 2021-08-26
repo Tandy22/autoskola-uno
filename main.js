@@ -15,6 +15,7 @@ videos.forEach(video => {
     video.next.play();
     video.next.classList.remove('hidden');
     video.element.classList.add('hidden');
+    console.log(`Video ${video.next.children[0].src} is playing`)
   });
 });
 

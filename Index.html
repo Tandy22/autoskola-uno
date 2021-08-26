@@ -64,127 +64,132 @@
 
 <body>
 
-   <!-- 
-   <div class="video-container">
-      <video id="video_1" class="video" width="100%" height="100%" preload="auto" autoplay muted playsinline
-        poster="static/images/video thumbnails/ezgif-frame-001.jpg">
-        <source src="videos/Behind the driver.webm" video="video/webm">
-        <source src="videos/Behind the driver.mp4" video="video/mp4">
-      </video>
-      <video id="video_2" class="video hidden" width="100%" height="100%" preload="metadata" muted playsinline>
-        <source src="videos/Inside of a car driving in India.mp4#t=0.5" video="video/mp4">
-      </video>
-    </div>
-    <div class="introduction-container">
-      <div class="introduction-logo-container">
-        <img class="introduction-logo" src="static/images/apple-touch-icon-180x180-removebg-preview.png" alt="logo image">
+   <section style="height: 100vh">
+      <div class="video-container">
+         <video id="video_1" class="video" width="100%" height="100%" preload="auto" autoplay muted playsinline
+            poster="Photos/video thumbnails/ezgif-frame-001.jpg">
+            <source src="videos/Behind the driver.webm" video="video/webm">
+            <source src="videos/Behind the driver.mp4" video="video/mp4">
+         </video>
+         <video id="video_2" class="video hidden" width="100%" height="100%" preload="metadata" muted playsinline>
+            <source src="videos/Inside of a car driving in India.mp4#t=0.5" video="video/mp4">
+         </video>
+         </div>
+         <div class="introduction-container"">
+            <!-- <div class="introduction-logo-container">
+               <img class="introduction-logo" src="static/images/apple-touch-icon-180x180-removebg-preview.png" alt="logo image">
+            </div>
+            <div class="introduction-text">
+               Autoškola Uno
+            </div>
+            <div class="introduction-text--extra">
+               Comming soon
+            </div> -->
+            <div class="introduction-text--extra">
+               Autoškola Uno
+            </div>
+         </div>
       </div>
-      <div class="introduction-text">
-        Autoškola Uno
+
+      <div style="position: absolute; top: 0; width: 100%">
+         <section class="info-bar">
+            <ul class="basic-info__list">
+               <li class="basic-info__list-item">
+                  <address>
+                     <a class="basic-info__link" href="https://g.page/autoskola-uno?share" rel="noopener" target="_blank">
+                        <img src="Icons/paper-plane.svg" alt="paper plane icon">
+                        <span>Duga 1, 32100, Vinkovci</span>
+                     </a>
+                  </address>
+               </li>
+
+               <li class="basic-info__list-item">
+                  <address>
+                     <a class="basic-info__link" href="mailto:info@uno.hr">
+                        <img src="Icons/mail-open.svg" alt="mail icon">
+                        <span>info@uno.hr</span>
+                     </a>
+                  </address>
+               </li>
+
+               <li class="basic-info__link"class="basic-info__link" >
+                  <img src="Icons/clock.svg" alt="clock icon">
+                  <span>MON - FRIDAY <time datetime="08:00">08:00</time> to <time datetime="15:00">15:00</time> </span>
+               </li>
+            </ul>
+
+            <ul class="social-info__list">
+               <li class="social-info__list-item">
+                  <a href="https://www.facebook.com/autoskola.uno/" rel="noopener" target="_blank">
+                     <img src="Icons/facebook.svg" alt="facebook icon link">
+                  </a>
+               </li>
+               <li class="social-info__list-item">
+                  <a href="https://www.instagram.com/uno.vinkovci/" rel="noopener" target="_blank">
+                     <img src="Icons/instagram.svg" alt="instagram icon link">
+                  </a>
+               </li>
+               <li class="social-info__list-item">
+                  <a href="https://www.youtube.com/channel/UCep2Mfu30beDHn-Y9NuO1wQ" rel="noopener" target="_blank">
+                     <img src="Icons/youtube.svg" alt="youtube icon link">
+                  </a>
+               </li>
+            </ul>
+         </section>
+
+         <nav class="main-navigation" role="navigation" aria-label="this is driving school uno website main navigation"
+            aria-roledescription="main navigation">
+
+            <a class="main-navigation__logo" href="#home">
+               <img role="img" class="site-logo" src="apple-touch-icon-76x76-removebg-preview-whiten.png" alt="company logo">
+            </a>
+
+            <ul role="menubar" class="main-navigation__list">
+
+               <li role="none" class="main-navigation__list-item">
+                  <a role="menuitem" aria-label="Link to Home section" class="navigation__list-item-link" href="">HOME</a>
+               </li>
+
+               <li role="none" class="main-navigation__list-item">
+                  <a role="menuitem" aria-label="Link to About Us section" class="navigation__list-item-link"
+                     href="">ABOUT</a>
+               </li>
+
+               <li role="none" class="main-navigation__list-item">
+                  <a role="menuitem" aria-label="Link to Programs seciton" class="navigation__list-item-link"
+                     href="">PROGRAMS</a>
+               </li>
+
+               <li role="none" class="main-navigation__list-item">
+                  <a role="menuitem" aria-label="Link to Teachers section" class="navigation__list-item-link"
+                     href="">PRICEING</a>
+               </li>
+
+               <li role="none" class="main-navigation__list-item">
+                  <a role="menuitem" aria-label="Link to Testimonials section" class="navigation__list-item-link"
+                     href="">TESTIMONIALS</a>
+               </li>
+
+               <li role="none" class="main-navigation__list-item">
+                  <a role="menuitem" aria-label="Link to Contact Us section" class="navigation__list-item-link"
+                     href="">CONTACT US</a>
+               </li>
+
+               <li role="none" class="main-navigation__list-item phone-list-item">
+                  <a role="menuitem" href="tel:032-334-646" aria-label="Call us on phone number" class="navigation__list-item-link">
+                     <div class="phone-icon-container">
+                        <img class="phone-icon-container__icon" src="Icons/phone-1.svg" alt="phone icon" role="img">
+                     </div>
+                     <div class="phone-contact-container">
+                        <span class="nav-phone-label">Learn To Drive? Call us!</span>
+                        <span class="nav-phone-number">032-334-646</span>
+                     </div>
+                  </a>
+               </li>
+            </ul>
+         </nav>
       </div>
-      <div class="introduction-text--extra">
-        Comming soon
-      </div>
-    </div>
-     -->
-
-
-   <section class="info-bar">
-      <ul class="basic-info__list">
-         <li class="basic-info__list-item">
-            <address>
-               <a class="basic-info__link" href="https://g.page/autoskola-uno?share" rel="noopener" target="_blank">
-                  <img src="Icons/paper-plane.svg" alt="paper plane icon">
-                  <span>Duga 1, 32100, Vinkovci</span>
-               </a>
-            </address>
-         </li>
-
-         <li class="basic-info__list-item">
-            <address>
-               <a class="basic-info__link" href="mailto:info@uno.hr">
-                  <img src="Icons/mail-open.svg" alt="mail icon">
-                  <span>info@uno.hr</span>
-               </a>
-            </address>
-         </li>
-
-         <li class="basic-info__link"class="basic-info__link" >
-            <img src="Icons/clock.svg" alt="clock icon">
-            <span>MON - FRIDAY <time datetime="08:00">08:00</time> to <time datetime="15:00">15:00</time> </span>
-         </li>
-      </ul>
-
-      <ul class="social-info__list">
-         <li class="social-info__list-item">
-            <a href="https://www.facebook.com/autoskola.uno/" rel="noopener" target="_blank">
-               <img src="Icons/facebook.svg" alt="facebook icon link">
-            </a>
-         </li>
-         <li class="social-info__list-item">
-            <a href="https://www.instagram.com/uno.vinkovci/" rel="noopener" target="_blank">
-               <img src="Icons/instagram.svg" alt="instagram icon link">
-            </a>
-         </li>
-         <li class="social-info__list-item">
-            <a href="https://www.youtube.com/channel/UCep2Mfu30beDHn-Y9NuO1wQ" rel="noopener" target="_blank">
-               <img src="Icons/youtube.svg" alt="youtube icon link">
-            </a>
-         </li>
-      </ul>
    </section>
-
-   <nav class="main-navigation" role="navigation" aria-label="this is driving school uno website main navigation"
-      aria-roledescription="main navigation">
-
-      <a class="main-navigation__logo" href="#home">
-         <img role="img" class="site-logo" src="apple-touch-icon-76x76.png" alt="company logo">
-      </a>
-
-      <ul role="menubar" class="main-navigation__list">
-
-         <li role="none" class="main-navigation__list-item">
-            <a role="menuitem" aria-label="Link to Home section" class="navigation__list-item-link" href="">HOME</a>
-         </li>
-
-         <li role="none" class="main-navigation__list-item">
-            <a role="menuitem" aria-label="Link to About Us section" class="navigation__list-item-link"
-               href="">ABOUT</a>
-         </li>
-
-         <li role="none" class="main-navigation__list-item">
-            <a role="menuitem" aria-label="Link to Programs seciton" class="navigation__list-item-link"
-               href="">PROGRAMS</a>
-         </li>
-
-         <li role="none" class="main-navigation__list-item">
-            <a role="menuitem" aria-label="Link to Teachers section" class="navigation__list-item-link"
-               href="">PRICEING</a>
-         </li>
-
-         <li role="none" class="main-navigation__list-item">
-            <a role="menuitem" aria-label="Link to Testimonials section" class="navigation__list-item-link"
-               href="">TESTIMONIALS</a>
-         </li>
-
-         <li role="none" class="main-navigation__list-item">
-            <a role="menuitem" aria-label="Link to Contact Us section" class="navigation__list-item-link"
-               href="">CONTACT US</a>
-         </li>
-
-         <li role="none" class="main-navigation__list-item phone-list-item">
-            <a role="menuitem" href="tel:032-334-646" aria-label="Call us on phone number" class="navigation__list-item-link">
-               <div class="phone-icon-container">
-                  <img class="phone-icon-container__icon" src="Icons/phone-1.svg" alt="phone icon" role="img">
-               </div>
-               <div class="phone-contact-container">
-                  <span>Learn To Drive? Call us!</span>
-                  <span class="nav-phone-number">032-334-646</span>
-               </div>
-            </a>
-         </li>
-      </ul>
-   </nav>
 
    <section class="driving-info-section">
       <div class="driving-info-section__image-container">

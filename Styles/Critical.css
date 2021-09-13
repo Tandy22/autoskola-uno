@@ -522,3 +522,13 @@ optgroup {
     margin-top: auto;
   }
 }
+
+@media (max-width: 800px) {
+  .info-bar {
+    height: 10rem;
+  }
+
+  .main-navigation {
+    height: calc(100% - 10rem);
+  }
+}

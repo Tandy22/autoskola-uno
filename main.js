@@ -44,3 +44,18 @@ if (videos.length > 0) {
     }
   })
 }
+
+
+
+
+
+/* HAMBURGER MENU */
+let hamburgerMenuIcon = document.querySelector('.main_navigation__menu--mobile');
+let menu = document.querySelector('.main-navigation__list');
+let menuOverlay = document.querySelector('.menu-overlay');
+
+hamburgerMenuIcon.addEventListener('click', () => {
+  menu.classList.toggle('visible-flex');
+  menuOverlay.classList.toggle('visible-flag');
+  elCenterContent.classList.toggle('invisible');
+});
